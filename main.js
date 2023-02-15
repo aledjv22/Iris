@@ -16,7 +16,7 @@ function mostrarMensaje(){
         boton.style.display = 'none';
         mensaje.classList.toggle("inactive");
     } else {
-        mensaje.innerHTML = "Aun falta para tu cumpleaños, espera un toque plis.";
+        mensaje.innerHTML = "Aun falta para tu cumpleaños, espera un toque plis. 🙌";
         titulo.classList.toggle("inactive");
         boton.style.display = 'none';
         mensaje.classList.toggle("holis");
