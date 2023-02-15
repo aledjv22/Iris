@@ -20,5 +20,6 @@ function mostrarMensaje(){
         titulo.classList.toggle("inactive");
         boton.style.display = 'none';
         mensaje.classList.toggle("holis");
+        
     }
 }
