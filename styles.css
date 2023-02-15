@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.blogs.es/705897/avengers-5-lo-que-sabemos/1366_2000.jpeg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f00;
+    text-align: center;
+    margin-top: 500px;
+    opacity: 0.85;
+}
+
+#mensaje {
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Media query para pantalla de 1921px o más */
+@media only screen and (min-width: 1921px) {
+    body {
+        background-repeat: repeat-x;
+    }
+}
+
+/* Media query para pantalla de menos de 640px */
+@media only screen and (max-width: 1000px) {
+    body {
+        background-image: url("https://i.pinimg.com/originals/bb/68/37/bb6837a119a71f3defc912998e7fee26.jpg");
+        background-repeat: repeat-y;
+        background-size: 100%;
+    }
+}
+
+/* Estilos para el botón */
+#btn-regalo {
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 2em;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    opacity: 0.85;
+}
