@@ -1,9 +1,10 @@
 //Creo los elementos
-const mensaje = document.getElementById("mensaje");
+const mensaje = document.querySelector("#mensaje");
+const boton = document.querySelector("#btn-regalo");
 // Obtener la fecha actual
 var hoy = new Date();
 // Establecer la fecha del cumpleaños
-var fechaCumple = new Date("2023-02-16");
+var fechaCumple = new Date("2023-02-15");
 // Obtener la diferencia de tiempo entre las dos fechas
 var diffTiempo = fechaCumple.getTime() - hoy.getTime();
 // Convertir la diferencia de tiempo a días
@@ -13,7 +14,13 @@ var diffDias = Math.floor(diffTiempo / (1000 * 60 * 60 * 24));
 if (diffDias == 0) {
     mensaje.innerHTML = "¡Feliz Cumpleaños!";
     document.title = "Feliz cumpleaños Iris!!!🎉";
-    document.getElementById("btn-regalo").classList.toggle("inactive");
+    boton.style.display = 'none';
+    mensaje.classList.toggle("inactive");
 } else {
+    
+}
+
+//funcion de muestra de mensajes
+function mostrarMensaje(){
     mensaje.innerHTML = "Faltan " + diffDias + " días para tu cumpleaños";
 }

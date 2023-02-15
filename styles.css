@@ -23,6 +23,19 @@ h1 {
 .inactive{
     display: none;
 }
+/* Estilos para el botón */
+#btn-regalo {
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 2em;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    opacity: 0.85;
+}
+
 
 /* Media query para pantalla de 1921px o más */
 @media only screen and (min-width: 1921px) {
@@ -40,15 +53,3 @@ h1 {
     }
 }
 
-/* Estilos para el botón */
-#btn-regalo {
-    display: block;
-    margin: 0 auto;
-    background-color: green;
-    border: none;
-    color: white;
-    font-size: 2em;
-    padding: 0.2em 0.5em;
-    border-radius: 5px;
-    opacity: 0.85;
-}
