@@ -20,6 +20,10 @@ h1 {
     margin-top: 30px;
 }
 
+.inactive{
+    display: none;
+}
+
 /* Media query para pantalla de 1921px o más */
 @media only screen and (min-width: 1921px) {
     body {
