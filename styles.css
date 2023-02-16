@@ -28,7 +28,7 @@ h1 {
 }
 
 /* Estilos para el botón */
-#btn-regalo {
+.btn-regalo {
     display: block;
     margin: 0 auto;
     background-color: green;
